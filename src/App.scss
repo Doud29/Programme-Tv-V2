@@ -1,1 +1,53 @@
+.App {
+  height: 800px;
+  width: 100%;
+  .header-app {
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
 
+    .logo img {
+      height: 60px;
+      width: 60px;
+      object-fit: contain;
+    }
+  }
+
+  .programme {
+    .bloc-programme {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      border-bottom: 1px grey solid;
+      margin: auto;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      .bloc1 {
+        display: flex;
+        padding-left: 10px;
+        width: 30%;
+        padding-right: 10px;
+        align-items: center;
+        justify-content: space-around;
+        .p {
+          margin-left: 10px;
+        }
+      }
+      .bloc2 {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5px;
+      }
+    }
+  }
+}
+
+.inedit {
+  color: red;
+  font-weight: 600;
+}
